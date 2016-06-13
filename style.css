@@ -1,0 +1,97 @@
+/*
+  Main
+*/
+body{
+  color: #2d3c49;
+}
+
+/*
+  Title
+*/
+
+.title {
+  margin-top: 2em;
+  margin-bottom: 1em; 
+  resize: both;
+  overflow: auto;
+}
+
+.title h1{
+  font-family: 'Poiret One', cursive;
+  font-weight: 500;
+}
+
+.title img {
+  min-height: 10em;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+/*
+  Carousel
+*/
+
+carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
+
+/*
+  Work
+*/
+
+.work {
+  margin-top: 2em;
+  padding-left: 1em;
+  padding-right: 2em;
+}
+
+.work h2 {
+  color: #7d97ad;
+}
+
+.item {
+  padding: 1em;
+  height: auto;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  color: #2d3c49;
+}
+
+.item img {
+  display: block;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item:hover {
+  transform: translate(0px, -10px);
+}
+
+/*
+  Breakpoints
+*/
+
+@media screen and (min-width: 500px) {
+  .title h1 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container-fluid {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title h1 {
+    font-size: 4em;
+  }
+}
