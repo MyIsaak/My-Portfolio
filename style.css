@@ -51,14 +51,14 @@ carousel-inner img {
   padding-right: 2em;
 }
 
-.work h2 {
+.work p {
   color: #7d97ad;
 }
 
 .item {
   padding: 1em;
   height: auto;
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 1em;
   text-align: center;
   color: #2d3c49;
@@ -72,7 +72,20 @@ carousel-inner img {
 }
 
 .item:hover {
-  transform: translate(0px, -10px);
+  transform: scale(1.05);
+}
+
+/*
+  Footer
+*/
+
+.footer {
+  padding-left: 2em;
+  text-align: center;
+}
+
+.footer p {
+  color: #7d97ad;
 }
 
 /*
@@ -82,6 +95,14 @@ carousel-inner img {
 @media screen and (min-width: 500px) {
   .title h1 {
     font-size: 3em;
+  }
+  
+  .work h2 {
+    text-align: center;
+  }
+
+  .footer h2 {
+    text-align: center;
   }
 }
 
@@ -94,4 +115,8 @@ carousel-inner img {
   .title h1 {
     font-size: 4em;
   }
+}
+
+h2 {
+  padding-bottom: 1em;
 }
